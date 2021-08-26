@@ -1,6 +1,6 @@
 <!--as tags do markdown não estavam funcionando corretamente, tive que usar as tags do html-->
 <div align="center">
-  <img src="https://github.com/Jiorjoro/Social-S/blob/master/media/default/logo.png" alt="Social-S" width="550px" />
+  <img src="https://github.com/Jiorjoro/Social-S/blob/main/media/default/logo.png" alt="Social-S" width="550px" />
 </div>
 
 
