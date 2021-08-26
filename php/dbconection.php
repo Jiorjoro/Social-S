@@ -1,12 +1,11 @@
 <?php
 	//dados para fazer a conexão
-	$bdid = 'socials_bd';
-	$server = 'socials_bd.mysql.dbaas.com.br';
-	/* user em casa */
-	$bduser = 'socials_bd';
-	$bdpass = 'tEr24082021!';
+	$bdid = '' /* nome do bd */;
+	$server = '' /* servidor */;
+	$bduser = '' /* usuário do bd */ ;
+	$bdpass = '' /* senha do bd */ ;
 	
 	$conn = new mysqli($server, $bduser, $bdpass, $bdid); // conecta no BD
 	
-	mysqli_set_charset($conn, 'utf8mb4');
+	mysqli_set_charset($conn, 'utf8mb4'); // evita erros de encodificação
 ?>
