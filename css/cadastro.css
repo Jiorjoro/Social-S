@@ -1,0 +1,54 @@
+@media (max-width: 1366px) {
+    .imgLogo {
+        margin-top: 10%;
+    }
+    .container2 {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background: var(--cor-2);
+        height: 17rem;
+        width: 40%;
+        border-radius: 1rem;
+        border: 1px solid var(--cor-6);
+    }
+    a.bolsonaro {
+        text-decoration: none;
+        color: var(--cor-5);
+    }
+    i.feather-arrow-left {
+        position: absolute;
+        left: 1rem;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    input[type="text"],
+    input[type="password"] {
+        width: 97%;
+        background: var(--cor-8);
+        border: 1px solid var(--cor-6);
+        padding-left: 1rem;
+    }
+    input[type="submit"] {
+        background: var(--cor-1);
+        border: none;
+        box-shadow: 0.5px 1.5px 10px 3px var(--cor-6);
+    }
+    label.labelNovaFoto {
+        font-size: 18px;
+        position: relative;
+        top: 10px;
+    }
+    i.feather-paperclip {
+        font-size: 20px;
+        background: var(--cor-1);
+        padding: 0.3em;
+        border-radius: 5px;
+        position: relative;
+        top: 0.2rem;
+    }
+    input#fileToUpload {
+        display: none;
+    }
+}

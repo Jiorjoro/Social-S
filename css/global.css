@@ -1,0 +1,67 @@
+/* CORES EM VAR */
+:root {
+    --cor-1: #294b66;
+    --cor-2: #296661;
+    --cor-3: #bbd9e1;
+    --cor-4: #459a95;
+    --cor-5: #ffffff;
+    --cor-6: #000;
+    --cor-7: #00BFFF;
+    --cor-8: #ffffff86;
+    --cor-9: #8abecc;
+    --cor-10: #3787a0;
+    --cor-11: #8abecc83;
+}
+body {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #4d7a86;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+    overflow-x: hidden;
+    overscroll-behavior-y: none;
+}
+textarea {
+    resize: none;
+}
+textarea::placeholder,
+input::placeholder {
+    color: var(--cor-6);
+}
+input:focus,
+textarea:focus {
+    outline: 0;
+}
+[type=search] {
+    border: none;
+    outline-offset: -2px;
+    -webkit-appearance: textfield;
+}
+button, input {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+/* Overflow-y */
+/* Largura da barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Fundo da barra de rolagem */
+::-webkit-scrollbar-track-piece {
+    background-color: var(--cor-2);
+}
+/* Cor do indicador de rolagem */
+::-webkit-scrollbar-thumb:vertical,
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: var(--cor-4);
+}
+/* Cor do indicador de rolagem - ao passar o mouse */
+::-webkit-scrollbar-thumb:vertical:hover,
+::-webkit-scrollbar-thumb:horizontal:hover {
+    background-color: var(--cor-4);
+} 
